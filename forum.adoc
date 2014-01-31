@@ -1,0 +1,27 @@
+= Forum (free support)
+:awestruct-layout: default
+:showtitle:
+
+== Usage questions
+
+If you have a question about Dashbuilder, just ask our friendly community:
+
+* Ask on https://community.jboss.org/en/jbpm?view=discussions[the jBPM discussion forum] (recommended).
+
+* Or ask on http://stackoverflow.com/questions/tagged/dashbuilder[StackOverflow].
+
+Please follow these recommendations when posting a question:
+
+* Get to the point. Keep it as short as possible.
+* Include _relevant_ technical details (stacktrace, short code snippet, ...).
+* Be polite, friendly and clear. Reread your question before posting it.
+* Be patient. This isn't link:paid_support.html[paid support].
+
+== Development discussions
+
+If you've link:source_code.html[build Dashbuilder from source] and you would like to improve it,
+then come talk with us:
+
+* Join us on http://www.jboss.org/jbpm/lists[the jBPM developer mailing list].
+
+* And link:chat.html[chat with us] (recommended).
