@@ -17,12 +17,12 @@ The source code for Dashbuilder itself, examples and documentation.
 
 '''
 
-=== Quick Start
+== Quick Start
 
 Do you want to build & run a demo from the latest sources on github. +
 Read the quick start instructions https://github.com/droolsjbpm/dashboard-builder#quickstart[here].
 
-=== Contributors
+== Contributors
 
 Do you want to contribute as a developer? +
 If so then take a closer look at the following https://github.com/droolsjbpm/dashboard-builder/blob/master/modules/README.md#prerequisites[document].
