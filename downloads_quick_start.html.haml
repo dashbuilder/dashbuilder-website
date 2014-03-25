@@ -120,41 +120,4 @@ layout: default
                 %li Start the application.
         %hr/
     #rightcol.span3.well
-      %h2 Latest News
-      %ul.listPosts
-        %li
-          / %span.name Lorem Ipsum
-          %span.meta Mar 11, 2014
-          %a{:href => "http://dashbuilder.blogspot.com.es/2014/03/embed-kpi-chart-into-your-web-app.html", :target => "_blank"} Embed a KPI chart into your web app
-          %br/
-          %p Recently, a new cool feature has been added to the Dashbuilder echosystem: the ability to embed dashboard charts into your own web app via a lightweight easy to use JavaScript API...
-          %br/
-        %li
-          / %span.name Lorem Ipsum
-          %span.meta Feb 24, 2014
-          %a{:href => "http://dashbuilder.blogspot.com.es/2014/02/the-dashbuilder-demo-gets-docker-ized.html", :target => "_blank"} The Dashbuilder demo gets Docker-ized
-          %br/
-          %p During the last week I've been playing a little with Docker. Docker is an open-source virtualization technology that automates the deployment...
-          %br/	  
-        %li
-          / %span.name Lorem Ipsum
-          %span.meta Jan 29, 2014
-          %a{:href => "http://dashbuilder.blogspot.com.es/2014/01/dashbuilder-601-released.html", :target => "_blank"} Dashbuilder 6.0.1 released
-          %br/
-          %p A new version of Dashbuilder has been release along with the Drools & jBPM platform. This version contains only some bug fixes...
-          %br/
-        %li
-          / %span.name Lorem Ipsum
-          %span.meta Jan 29, 2014
-          %a{:href => "http://dashbuilder.blogspot.com.es/2014/01/process-monitoring-with-jbpm-integration.html", :target => "_blank"} Process monitoring with jBPM integration
-          %br/
-          %p Dashbuilder is packaged and automatically ready to use with jBPM 6 workbench (https://www.jboss.org/jbpm)...
-          %br/
-        %li
-          / %span.name Lorem Ipsum
-          %span.meta Jan 29, 2014
-          %a{:href => "http://dashbuilder.blogspot.com.es/2014/01/first-steps-to-create-your-dashboards.html", :target => "_blank"} First steps to create your dashboards
-          %br/
-          %p The most typical situation with Dashbuilder is that you already have some data store with data you want to create dashboards from...
-      %p
-        %a.btn{:href => "http://dashbuilder.blogspot.com/", :target => "_blank"} More »
+      = partial ( 'latestNews.html.haml' )
