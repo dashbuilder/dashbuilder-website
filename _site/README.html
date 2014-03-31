@@ -1,0 +1,21 @@
+<h1 id="dashbuilder-website">dashbuilder-website</h1>
+
+<p>Sources for the website http://www.dashbuilder.org</p>
+
+<h1 id="how-to-build-with-awestruct">How to build with Awestruct</h1>
+
+<p>Follow the instructions of Awestruct's <a href="http://awestruct.org/getting_started/">getting started guide</a>.</p>
+
+<p>First set up your environment correctly:</p>
+
+<pre><code>$ curl -L https://get.rvm.io | bash -s stable --ruby=1.9.3
+$ gem install awestruct bundler
+$ rake setup
+</code></pre>
+
+<p>Then build the website (before and after your changes):</p>
+
+<pre><code>$ rake clean build
+$ firefox _site/index.html
+</code></pre>
+
