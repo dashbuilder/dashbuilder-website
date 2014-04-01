@@ -48,6 +48,7 @@
 
 - userId: mbiarnes
   fullName: Michael Biarnes
+  role: Release Manager
   gravatarHashId: 2d145160c751b1ac64f7276afd2d8728
   githubUsername: mbiarnes
   employedBy: Red Hat
@@ -88,7 +89,7 @@
 - userId: jrenaat
   fullName: Jan Schatteman
   role: Core developer
-  gravatarHashId: 57e600470d83cd8fe4c36578b2b5c9dd
+  gravatarHashId: 03915ffa1bcfe4ecafd484719a3cc945
   employedBy: Red Hat
   githubUsername: jrenaat
   ircNickname: jrenaat
