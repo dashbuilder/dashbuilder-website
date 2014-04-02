@@ -102,10 +102,10 @@
             %span.icon-bar
           .nav-collapse.collapse
             %ul.nav
-              %li
-                %a{:href => "index.html"} Home
-              %li
-                %a{:href => "about.html"} About
+              %li{:class=>("active" if page.url =~ /^\/Home\//)}<
+                %a{:href=>"index.html"} Home
+              %li{:class=>("active" if page.url =~ /^\/About\//)}<
+                %a{:href=>"about.html"} About
               %li.dropdown
                 %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
                   Downloads
