@@ -14,8 +14,9 @@ profiles:
     base_url: http://localhost:4242
     developmentMode: true
     
-  production:
-    developmentMode: false
-    deploy:
-      host: dashbuilder@filemgmt.jboss.org
-      path: /www_htdocs/dashbuilder/
+production:
+  developmentMode: false
+  deploy:
+    host: dashbuilder@filemgmt.jboss.org
+    path: /www_htdocs/dashbuilder/
+    base_url: http://www.dashbuilder.org

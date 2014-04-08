@@ -1,3 +1,7 @@
+---
+layout: base
+tab: to-be-defined
+---
 %html(lang="en" itemscope="" itemtype="http://schema.org/Product" xmlns="http://www.w3.org/1999/xhtml")
   %head
     %meta(http-equiv="Content-Type" content="text/html; charset=UTF-8")
@@ -102,10 +106,10 @@
             %span.icon-bar
           .nav-collapse.collapse
             %ul.nav
-              %li{:class=>("active" if page.url =~ /^\/Home\//)}<
-                %a{:href=>"index.html"} Home
-              %li{:class=>("active" if page.url =~ /^\/About\//)}<
-                %a{:href=>"about.html"} About
+              %li{:class=>('active' if page.url =~ /^\/index.html\//)}<
+                %a{:href => 'index.html'} Home
+              %li{:class=>('active' if page.url =~ /^\/about.html\//)}<
+                %a{:href => 'about.html'} About
               %li.dropdown
                 %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
                   Downloads
