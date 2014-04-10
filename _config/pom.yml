@@ -1,12 +1,12 @@
 latestFinal:
     version: 6.0.1.Final
     distributionZip: http://download.jboss.org/drools/release/6.0.1.Final/optaplanner-distribution-6.0.1.Final.zip
-    releaseDate: 2013-12-20
+    releaseDate: 2014-01-15
     releaseNotesVersion: 6.0
 
-    documentationHtmlSingle: http://docs.jboss.org/drools/release/6.0.1.Final/optaplanner-docs/html_single/index.html
-    documentationHtml: http://docs.jboss.org/drools/release/6.0.1.Final/optaplanner-docs/html/index.html
-    documentationPdf: http://docs.jboss.org/drools/release/6.0.1.Final/optaplanner-docs/pdf/optaplanner-docs.pdf
+    documentationHtmlSingle: http://docs.jboss.org/dashbuilder/release/6.0.1.Final/html_single/index.html
+    documentationHtml: http://docs.jboss.org/dashbuilder/release/6.0.1.Final/html/index.html
+    documentationPdf: http://docs.jboss.org/dashbuilder/release/6.0.1.Final/pdf/dashbuilder-docs.pdf
     javadocs: http://docs.jboss.org/drools/release/6.0.1.Final/optaplanner-javadoc/index.html
 
     droolsExpert_documentationHtmlSingle: http://docs.jboss.org/drools/release/6.0.1.Final/drools-expert-docs/html_single/index.html

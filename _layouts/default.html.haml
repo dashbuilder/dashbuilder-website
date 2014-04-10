@@ -105,11 +105,11 @@ tab: to-be-defined
             %span.icon-bar
             %span.icon-bar
           .nav-collapse.collapse
-            %ul.nav
-              %li{:class=>('active' if page.url =~ /^\/index.html\//)}<
-                %a{:href => 'index.html'} Home
-              %li{:class=>('active' if page.url =~ /^\/about.html\//)}<
-                %a{:href => 'about.html'} About
+            %ul#nav.nav
+              %li
+                %a{:href => "index.html"} Home
+              %li
+                %a{:href => "about.html"} About
               %li.dropdown
                 %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
                   Downloads

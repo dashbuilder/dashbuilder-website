@@ -1,9 +1,10 @@
 require File.expand_path '../haml/filters/asciidoc.rb', __FILE__
 
 Awestruct::Extensions::Pipeline.new do
-          extension Awestruct::Extensions::Posts.new( '/news' ) 
-	  extension Awestruct::Extensions::Paginator.new(:posts, '/news/index', :per_page => 5)
-	# extension Awestruct::Extensions::Tagger.new(:posts, '/blog/index', '/blog/tags', :per_page => 5)
+          extension Awestruct::Extensions::Posts.new( '/news', :posts ) 
+	  extension Awestruct::Extensions::Paginator.new(:posts, '/news/index', :per_page => 3)
+	  extension Awestruct::Extensions::Tagger.new(:posts, '/news/index', '/news/tags', :per_page=>3 )
+	  extension Awestruct::Extensions::TagCloud.new(:posts, '/news/tags/index.html')
 	  extension Awestruct::Extensions::Disqus.new
 	# extension Awestruct::Extensions::Atomizer.new(:posts, '/blog/news.atom')
         

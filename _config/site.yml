@@ -1,5 +1,11 @@
-encoding: UTF-8
+# Default page title
 title: Dashbuilder
+
+# Project id name
+project: Dashbuilder
+
+
+encoding: UTF-8
 description: Open source dashboards and reporting platform
 keywords: open source, software
 canonicalBaseUrl: http://www.dashbuilder.org
