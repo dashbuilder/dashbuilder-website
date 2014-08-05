@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8052007a-69e8-4d53-b1c7-c1c6486d0166" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about.html" afterPath="$PROJECT_DIR$/_site/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/chat.html" afterPath="$PROJECT_DIR$/_site/chat.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/continous_integration.html" afterPath="$PROJECT_DIR$/_site/continous_integration.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/documentation.html" afterPath="$PROJECT_DIR$/_site/documentation.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/downloads_binaries.html.haml" afterPath="$PROJECT_DIR$/downloads_binaries.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/downloads_binaries.html" afterPath="$PROJECT_DIR$/_site/downloads_binaries.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/downloads_quick_start.html" afterPath="$PROJECT_DIR$/_site/downloads_quick_start.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/paid_support.html" afterPath="$PROJECT_DIR$/_site/paid_support.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/report_issue.html" afterPath="$PROJECT_DIR$/_site/report_issue.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/research.html" afterPath="$PROJECT_DIR$/_site/research.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/screenshots.html" afterPath="$PROJECT_DIR$/_site/screenshots.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/slides.html" afterPath="$PROJECT_DIR$/_site/slides.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/team.html" afterPath="$PROJECT_DIR$/_site/team.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/website_info.html" afterPath="$PROJECT_DIR$/_site/website_info.html" />
     </list>
     <ignored path="dashbuilder-website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,7 +80,7 @@
       <file leaf-file-name="downloads_binaries.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/downloads_binaries.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="123" selection-start="2025" selection-end="2025" vertical-scroll-proportion="0.91007197">
+            <state line="29" column="30" selection-start="827" selection-end="827" vertical-scroll-proportion="0.44244605">
               <folding />
             </state>
           </provider>
@@ -328,7 +314,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3839" y="0" width="1920" height="1045" extended-state="4" />
+    <frame x="3839" y="0" width="1920" height="1045" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -444,7 +430,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/downloads_binaries.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="123" selection-start="2025" selection-end="2025" vertical-scroll-proportion="0.91007197">
+        <state line="29" column="30" selection-start="827" selection-end="827" vertical-scroll-proportion="0.44244605">
           <folding />
         </state>
       </provider>
