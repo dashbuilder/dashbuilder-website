@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8052007a-69e8-4d53-b1c7-c1c6486d0166" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/documentation.html.haml" afterPath="$PROJECT_DIR$/documentation.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/documentation.html" afterPath="$PROJECT_DIR$/_site/documentation.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/downloads_binaries.html.haml" afterPath="$PROJECT_DIR$/downloads_binaries.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/downloads_binaries.html" afterPath="$PROJECT_DIR$/_site/downloads_binaries.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dashbuilder-website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,7 +84,7 @@
       <file leaf-file-name="downloads_binaries.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/downloads_binaries.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="0" selection-start="2106" selection-end="2106" vertical-scroll-proportion="0.3938706">
+            <state line="17" column="52" selection-start="428" selection-end="428" vertical-scroll-proportion="0.28944382">
               <folding />
             </state>
           </provider>
@@ -89,7 +93,7 @@
       <file leaf-file-name="documentation.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/documentation.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="75" selection-start="1227" selection-end="1227" vertical-scroll-proportion="-23.125">
+            <state line="19" column="33" selection-start="502" selection-end="502" vertical-scroll-proportion="-11.875">
               <folding />
             </state>
           </provider>
@@ -462,14 +466,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/documentation.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="75" selection-start="1227" selection-end="1227" vertical-scroll-proportion="-23.125">
+        <state line="19" column="33" selection-start="502" selection-end="502" vertical-scroll-proportion="-11.875">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/downloads_binaries.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="0" selection-start="2106" selection-end="2106" vertical-scroll-proportion="0.3938706">
+        <state line="17" column="52" selection-start="428" selection-end="428" vertical-scroll-proportion="0.28944382">
           <folding />
         </state>
       </provider>
