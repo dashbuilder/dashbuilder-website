@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8052007a-69e8-4d53-b1c7-c1c6486d0166" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/documentation.html.haml" afterPath="$PROJECT_DIR$/documentation.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/documentation.html" afterPath="$PROJECT_DIR$/_site/documentation.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/downloads_binaries.html.haml" afterPath="$PROJECT_DIR$/downloads_binaries.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dashbuilder-website.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="8052007a-69e8-4d53-b1c7-c1c6486d0166" time="1407330896618" ignored="false" />
     <file path="/index.html.haml" changelist="8052007a-69e8-4d53-b1c7-c1c6486d0166" time="1406625392262" ignored="false" />
     <file path="$PROJECT_DIR$/_site/css/bootstrap-community.min.css" changelist="8052007a-69e8-4d53-b1c7-c1c6486d0166" time="1406626851299" ignored="false" />
-    <file path="/downloads_binaries.html.haml" changelist="8052007a-69e8-4d53-b1c7-c1c6486d0166" time="1407334498634" ignored="false" />
+    <file path="/downloads_binaries.html.haml" changelist="8052007a-69e8-4d53-b1c7-c1c6486d0166" time="1407335071869" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +80,7 @@
       <file leaf-file-name="downloads_binaries.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/downloads_binaries.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="29" selection-start="2705" selection-end="2705" vertical-scroll-proportion="0.8195233">
+            <state line="58" column="0" selection-start="2106" selection-end="2106" vertical-scroll-proportion="0.3938706">
               <folding />
             </state>
           </provider>
@@ -472,7 +469,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/downloads_binaries.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="29" selection-start="2705" selection-end="2705" vertical-scroll-proportion="0.8195233">
+        <state line="58" column="0" selection-start="2106" selection-end="2106" vertical-scroll-proportion="0.3938706">
           <folding />
         </state>
       </provider>
