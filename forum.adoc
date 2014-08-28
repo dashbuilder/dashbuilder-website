@@ -1,27 +1,40 @@
-= Forum (free support)
+= Forum (community volunteer support)
 :awestruct-layout: default
 :showtitle:
 
-== Usage questions
-
-If you have a question about Dashbuilder, just ask our friendly community:
-
-* Ask on https://community.jboss.org/en/jbpm?view=discussions[the jBPM discussion forum] (recommended).
-
-* Or ask on http://stackoverflow.com/questions/tagged/dashbuilder[StackOverflow].
+All our forums use Google Groups, which allows for both web and email interaction.
 
 Please follow these recommendations when posting a question:
 
+* Please post to the relevant group. DO NOT post setup, configuration, adminstration questions to Dashbuilder Usage
+* Before posting first search the archives for similar questions. Searches should include Google Groups, StackOverflow and Jira.
 * Get to the point. Keep it as short as possible.
-* Include _relevant_ technical details (stacktrace, short code snippet, ...).
+* Include _relevant_ technical details (version, stacktrace, short code snippet, ...).
 * Be polite, friendly and clear. Reread your question before posting it.
-* Be patient. This isn't link:paid_support.html[paid support].
+* Be patient. Do not email people directly. This isn't link:paid_support.html[paid support].
+
+== Setup questions and discussions
+Installation, configuration, setup and administration discussions.
+
+* https://groups.google.com/forum/#!forum/dashbuilder-setup[Dashbuilder setup forum and mailing list].
+
+== Usage questions and discussions
+For everything related with the usage of the Dashbuilder tooling.
+
+* https://groups.google.com/forum/#!forum/dashbuilder-usage[Dashbuilder usage forum and mailing list].
+
+== StackOverflow
+StackOverflow is a popular externally run question and answer site, it does not allow for general discussions, and provides scoring and moderation.
+
+* http://stackoverflow.com/questions/tagged/dashbuilder[StackOverflow Q&A site].
 
 == Development discussions
+If you want to help improve Dashbuilder or have ideas you want to discuss (bug fixing, documentation or feature development) then come talk with us.
 
-If you've link:source_code.html[build Dashbuilder from source] and you would like to improve it,
-then come talk with us:
+* https://groups.google.com/forum/#!forum/dashbuilder-development[Dashbuilder development forum and mailing list].
+* link:source_code.html[Building Dashbuilder from source]
+* And link:chat.html[chat with us] (recommended). Contributors will get priority real time assistance on irc.
 
-* Join us on http://www.jboss.org/jbpm/lists[the jBPM developer mailing list].
 
-* And link:chat.html[chat with us] (recommended).
+
+
