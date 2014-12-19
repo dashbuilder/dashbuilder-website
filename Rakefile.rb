@@ -26,8 +26,11 @@ task :build => :check do
 end
 
 desc "Build the site and publish"
-task :publish => :check do
-  system "bundle exec awestruct -P production --deploy --force"
+task :publish => [:check, :clean, :build] do
+  system("echo Publishing...")
+  deploy_url = "dashbuilder@filemgmt.jboss.org:/www_htdocs/dashbuilder/"
+  success = system("rsync -Pqr --protocol=28 --delete-after _site/* #{deploy_url}")
+  fail unless success
 end
 
 task :check do

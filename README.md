@@ -18,4 +18,7 @@ Then build the website (before and after your changes):
     $ rake clean build
     $ firefox _site/index.html
 
+And publish your changes:
+
+    $ rake publish
 
