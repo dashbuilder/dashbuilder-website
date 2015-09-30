@@ -4,9 +4,9 @@ layout: default
 ---
 
 .breadcrumb
-  %a.breadcrumb_anchor{:href => "index.html"} Home
+  %a.breadcrumb_anchor{:href => relative("/index.html")} Home
   \/ Get Help /
-  %a.breadcrumb_anchor.active{:href => "chat.html"} Chat real-time
+  %a.breadcrumb_anchor.active{:href => relative("/help/chat.html")} Chat real-time
 .row-fluid
   #equalHeightsLayout
     #maincol.span9
@@ -48,7 +48,7 @@ layout: default
         %ul
           %li
             Answers can take a while. Wait at least an hour. If no one answers, then they are busy or AFK. Try the
-            %a{:href => "forum.html"} forum
+            %a{:href => relative("/help/forum.html")} forum
             instead.
           %li
             Don’t send private messages to anyone, use only the public channels. Private support is reserved for Red Hat customers only.

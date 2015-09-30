@@ -32,7 +32,7 @@ StackOverflow is a popular externally run question and answer site, it does not 
 If you want to help improve Dashbuilder or have ideas you want to discuss (bug fixing, documentation or feature development) then come talk with us.
 
 * https://groups.google.com/forum/#!forum/dashbuilder-development[Dashbuilder development forum and mailing list].
-* link:source_code.html[Building Dashbuilder from source]
+* link:../joinus/source_code.html[Building Dashbuilder from source]
 * And link:chat.html[chat with us] (recommended). Contributors will get priority real time assistance on irc.
 
 

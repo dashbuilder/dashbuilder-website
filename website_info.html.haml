@@ -4,9 +4,9 @@ layout: default
 ---
 
 .breadcrumb
-  %a.breadcrumb_anchor{:href => "index.html"} Home
+  %a.breadcrumb_anchor{:href => relative("/index.html")} Home
   \/
-  %a.breadcrumb_anchor.active{:href => "website_info.html"} Website Info
+  %a.breadcrumb_anchor.active{:href => relative("/website_info.html")} Website Info
 .row-fluid
   #equalHeightsLayout
     #maincol.span9
@@ -34,11 +34,11 @@ layout: default
         %p
           We welcome any feedback about this website on the
           = succeed "," do
-            %a{:href => "forum.html"} forum
-          %a{:href => "chat.html"} chat
+            %a{:href => relative("/help/forum.html")} forum
+          %a{:href => relative("/help/chat.html")} chat
           or
           = succeed "." do
-            %a{:href => "report_issue.html"} issue tracker
+            %a{:href => relative("/help/report_issue.html")} issue tracker
         %hr/
     #rightcol.span3.well
       = partial ( 'latestNews.html.haml' )

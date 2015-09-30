@@ -96,7 +96,7 @@ tab: to-be-defined
       %a#tab.tabnav-closed{:href => "https://www.jboss.org/"} Red Hat
     .banner
       %a{:href => "http://example.jboss.org/index.html#"}
-      .taglinelight.visible-desktop Open source dashboards and reporting platform
+      .taglinelight.visible-desktop #{site.description}
     #navbar-fix.navbar.navbar-inverse
       .navbar-inner
         .container
@@ -107,53 +107,53 @@ tab: to-be-defined
           .nav-collapse.collapse
             %ul#nav.nav
               %li
-                %a{:href => "index.html"} Home
+                %a{:href => relative("/index.html")} Home
               %li
-                %a{:href => "about.html"} About
+                %a{:href => relative("/about.html")} About
               %li.dropdown
                 %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
                   Downloads
                   %b.caret
                 %ul.dropdown-menu
                   %li
-                    %a{:href => "downloads_binaries.html"} Binaries Download
+                    %a{:href => relative("/downloads/downloads_binaries.html")} Binaries Download
                   %li
-                    %a{:href => "downloads_quick_start.html"} Quick Start Demo
+                    %a{:href => relative("/downloads/downloads_quick_start.html")} Quick Start Demo
               %li.dropdown
                 %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
                   Learn
                   %b.caret
                 %ul.dropdown-menu
                   %li
-                    %a{:href => "documentation.html"} Documentation
+                    %a{:href => relative("/learn/documentation.html")} Documentation
                   %li
-                    %a{:href => "slides.html"} Slides
+                    %a{:href => relative("/learn/slides.html")} Slides
                   %li
-                    %a{:href => "screenshots.html"} Screenshots
+                    %a{:href => relative("/learn/screenshots.html")} Screenshots
               %li.dropdown
                 %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
                   Get Help
                   %b.caret
                 %ul.dropdown-menu
                   %li
-                    %a{:href => "forum.html"} Forum (free support)
+                    %a{:href => relative("/help/forum.html")} Forum (free support)
                   %li
-                    %a{:href => "chat.html"} Chat real-time
+                    %a{:href => relative("/help/chat.html")} Chat real-time
                   %li
-                    %a{:href => "report_issue.html"} Report an issue
+                    %a{:href => relative("/help/report_issue.html")} Report an issue
                   %li
-                    %a{:href => "paid_support.html"} Commercial support
+                    %a{:href => relative("/help/paid_support.html")} Commercial support
               %li.dropdown
                 %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
                   Join Us
                   %b.caret
                 %ul.dropdown-menu
                   %li
-                    %a{:href => "source_code.html"} Source code
+                    %a{:href => relative("/joinus/source_code.html")} Source code
                   %li
-                    %a{:href => "continous_integration.html"} Continous integration
+                    %a{:href => relative("/joinus/continuous_integration.html")} Continuous integration
                   %li
-                    %a{:href => "team.html"} Team
+                    %a{:href => relative("/joinus/team.html")} Team
                   %li
                     / %a{:href => "research.html"} Research
               %li.divider
@@ -176,7 +176,7 @@ tab: to-be-defined
           \-
           %a{:href => "http://www.redhat.com/legal/privacy_statement.html", :style => "color: #FFF !important; text-decoration:underline;"} Privacy policy
           \-
-          %a{:href => "website_info.html", :style => "color: #FFF !important; text-decoration:underline;"} Website info
+          %a{:href => relative("/website_info.html"), :style => "color: #FFF !important; text-decoration:underline;"} Website info
       %center{:style => "color: #FFF !important;"}
         Dashbuilder is part of the
         %br/

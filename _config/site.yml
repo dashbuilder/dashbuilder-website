@@ -9,6 +9,7 @@ encoding: UTF-8
 description: Open source dashboards and reporting platform
 keywords: open source, software
 canonicalBaseUrl: http://www.dashbuilder.org
+license: ASL 2.0
 
 asciidoctor:
   :safe: safe

@@ -4,9 +4,9 @@ layout: default
 ---
 
 .breadcrumb
-  %a.breadcrumb_anchor{:href => "index.html"} Home
+  %a.breadcrumb_anchor{:href => relative("/index.html")} Home
   \/ Learn /
-  %a.breadcrumb_anchor.active{:href => "documentation.html"} Documentation
+  %a.breadcrumb_anchor.active{:href => relative("/learn/documentation.html")} Documentation
 .row-fluid
   #equalHeightsLayout
     #maincol.span9
@@ -21,7 +21,15 @@ layout: default
               %th Getting started guide
           %tbody
             %tr
-              %td Release 6.2.0.Final
+              %td Release #{site.pom.latestFinal.name}
+              %td
+                %a{:href => "http://docs.jboss.org/dashbuilder/release/#{site.pom.latestFinal.version}/html_single/", :target => "_blank"} HTML Single
+                |
+                %a{:href => "http://docs.jboss.org/dashbuilder/release/#{site.pom.latestFinal.version}/html/", :target => "_blank"} HTML
+                |
+                %a{:href => "http://docs.jboss.org/dashbuilder/release/#{site.pom.latestFinal.version}/pdf/", :target => "_blank"} PDF
+            %tr
+              %td Release 6.2.0 Final
               %td
                 %a{:href => "http://docs.jboss.org/dashbuilder/release/6.2.0.Final/html_single/", :target => "_blank"} HTML Single
                 |
@@ -29,7 +37,7 @@ layout: default
                 |
                 %a{:href => "http://docs.jboss.org/dashbuilder/release/6.2.0.Final/pdf/", :target => "_blank"} PDF
             %tr
-              %td Release 6.1.0.Final
+              %td Release 6.1.0 Final
               %td
                 %a{:href => "http://docs.jboss.org/dashbuilder/release/6.1.0.Final/html_single/", :target => "_blank"} HTML Single
                 |

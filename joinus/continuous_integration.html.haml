@@ -1,23 +1,23 @@
 ---
-title: Continous_integration
+title: Continuous_integration
 layout: default
 ---
 
 .breadcrumb
-  %a.breadcrumb_anchor{:href => "index.html"} Home
+  %a.breadcrumb_anchor{:href => relative("/index.html")} Home
   \/ Join Us /
-  %a.breadcrumb_anchor.active{:href => "continous_integration.html"} Continous integration
+  %a.breadcrumb_anchor.active{:href => relative("/joinus/continuous_integration.html")} Continuous integration
 .row-fluid
   #equalHeightsLayout
     #maincol.span9
       .row-fluid
-        %h1 Continous integration
+        %h1 Continuous integration
         %p
           We use Jenkins for continuous integration.
         %p
           Show the
           = succeed "." do
-            %a{:href => "https://hudson.jboss.org/hudson/job/dashboard-builder/", :target => "_blank"} Jenkins job
+            %a{:href => "https://jenkins-kieci.rhcloud.com/job/dashboard-builder/", :target => "_blank"} Jenkins job
         %p Keep the build blue!
         %hr/
     #rightcol.span3.well
