@@ -19,3 +19,12 @@ latest:
 
 nightly:
     version: 6.4.0-SNAPSHOT
+
+
+ufdashb_latestFinal:
+    name: 0.3.3 Final
+    version: 0.3.3.Final
+    releaseDate: 2015-09-25
+
+ufdashb_nightly:
+    version: 0.4.0-SNAPSHOT
