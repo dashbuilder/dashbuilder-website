@@ -62,26 +62,25 @@ UF Dashbuilder is built on top of the following technologies:
 As you can see, UF Dashbuilder is a major evolution over the existing distribution with the same goals in mind.
 However, from the technical perspective can be seen as a totally different project since the technology used is very
 different. Another major difference is that UF Dashbuilder has been designed with developers in mind. Anyone can use
-the API's and its GWT components to create an end-to-end dashboard solution. The following
+the API's and its GWT components to create end-to-end dashboard solutions. The following
 http://dashbuilder.blogspot.com.es/2015/03/uf-dashbuilder-real-time-dashboards.html[blog entry, window="_blank"] is a
 good example of how to develop an ad-hoc real-time dashboard. The https://www.youtube.com/watch?v=DMqtQQyMOnE/[process dashboard, window="_blank"]
- included within the jBPM Console it's also another good example of how developers can create its own custom dashboards
+ included in the jBPM Console it's also another good example of how developers can create its own custom dashboards
 (source files https://github.com/droolsjbpm/jbpm-console-ng/tree/master/jbpm-console-ng-dashboard/[here, window="_blank"]).
 
 Another important aspect to consider is the migration of the existing dashboards to the new platform. Our aim is to
 deliver a migration tool to automate the process. It doesn't seem an easy task though, since dashboard structure,
-components and storage are totally different. The minimum requirement to satisfy will be to be able to create a
-dashboard templates in UF Dashbuilder from existing dashboard definitions.
+components and storage are totally different. The minimum requirement to satisfy is to be able to create
+dashboards templates in UF Dashbuilder from existing dashboard definitions.
 
 == Future Plans
 
 Overall goal is to deliver a tooling that eases/speed up the process of gathering data from disparate data sources and
-allows non technical users to build dashboards from scratch from a very intuitive user interface. The next short term
-goal is to replace existing Dashbuilder with the new one. Other mid & long term goals are:
+allows non technical users to build dashboards from scratch. The next short term goal is to replace existing Dashbuilder
+with the new one. Other mid & long term goals are:
 
 * Support other charting libraries: D3, ChartJS or Lienzo
-* New displayer types: Radar, Scatter, Sunburst or Trees.
-* Supporting other charting libraries: D3, ChartJS or Lienzo
+* New displayer types: Radar, Scatter, Sunburst, Trees.
 * Report editor, for custom HTML based dashboard layouts
 * Mobility support
 * Data set REST API
