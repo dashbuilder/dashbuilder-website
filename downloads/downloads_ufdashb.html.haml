@@ -30,7 +30,8 @@ layout: default
                     %td WildFly 8.x
                     %td #{site.license}
                     %td
-                      %a{:href => "https://origin-repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.dashbuilder&a=dashbuilder-distros&v=LATEST&e=war&c=wildfly8"}
+                      %a{:href => "https://origin-repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.dashbuilder&a=dashbuilder-distros&v=LATEST&e=war&c=wildfly8",
+                          :onclick => "trackDownload(this.href, 'UF Wildfly', 'snapshot'); return false;"}
                         %i.icon-download-alt>
                         WAR
                   %tr
@@ -38,7 +39,8 @@ layout: default
                     %td Tomcat 7.0.x
                     %td #{site.license}
                     %td
-                      %a{:href => "https://origin-repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.dashbuilder&a=dashbuilder-distros&v=LATEST&e=war&c=tomcat7"}
+                      %a{:href => "https://origin-repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.dashbuilder&a=dashbuilder-distros&v=LATEST&e=war&c=tomcat7",
+                          :onclick => "trackDownload(this.href, 'UF Tomcat', 'snapshot'); return false;"}
                         %i.icon-download-alt>
                         WAR
 

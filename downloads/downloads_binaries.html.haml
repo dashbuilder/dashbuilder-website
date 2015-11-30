@@ -33,7 +33,8 @@ layout: default
                     %td #{site.license}
                     %td 18 MB
                     %td
-                      %a{:href => "http://downloads.jboss.org/dashbuilder/release/#{site.pom.latestFinal.version}/dashbuilder-#{site.pom.latestFinal.version}-wildfly8.war"}
+                      %a{:href => "http://downloads.jboss.org/dashbuilder/release/#{site.pom.latestFinal.version}/dashbuilder-#{site.pom.latestFinal.version}-wildfly8.war",
+                          :onclick => "trackDownload(this.href, 'Wildfly', '#{site.pom.latestFinal.name}'); return false;"}
                         %i.icon-download-alt>
                         WAR
                   %tr
@@ -43,7 +44,8 @@ layout: default
                     %td #{site.license}
                     %td 29 MB
                     %td
-                      %a{:href => "http://downloads.jboss.org/dashbuilder/release/#{site.pom.latestFinal.version}/dashbuilder-#{site.pom.latestFinal.version}-tomcat7.war"}
+                      %a{:href => "http://downloads.jboss.org/dashbuilder/release/#{site.pom.latestFinal.version}/dashbuilder-#{site.pom.latestFinal.version}-tomcat7.war",
+                          :onclick => "trackDownload(this.href, 'Tomcat', '#{site.pom.latestFinal.name}'); return false;"}
                         %i.icon-download-alt>
                         WAR
                   %tr
@@ -53,7 +55,8 @@ layout: default
                     %td #{site.license}
                     %td 26 MB
                     %td
-                      %a{:href => "http://downloads.jboss.org/dashbuilder/release/#{site.pom.latestFinal.version}/dashbuilder-#{site.pom.latestFinal.version}-tomee-1.7.1.war"}
+                      %a{:href => "http://downloads.jboss.org/dashbuilder/release/#{site.pom.latestFinal.version}/dashbuilder-#{site.pom.latestFinal.version}-tomee-1.7.1.war",
+                          :onclick => "trackDownload(this.href, 'TomEE', '#{site.pom.latestFinal.name}'); return false;"}
                         %i.icon-download-alt>
                         WAR
                   %tr
@@ -63,7 +66,8 @@ layout: default
                     %td #{site.license}
                     %td 27 MB
                     %td
-                      %a{:href => "http://downloads.jboss.org/dashbuilder/release/#{site.pom.latestFinal.version}/dashbuilder-#{site.pom.latestFinal.version}-was8.war"}
+                      %a{:href => "http://downloads.jboss.org/dashbuilder/release/#{site.pom.latestFinal.version}/dashbuilder-#{site.pom.latestFinal.version}-was8.war",
+                          :onclick => "trackDownload(this.href, 'Websphere', '#{site.pom.latestFinal.name}'); return false;"}
                         %i.icon-download-alt>
                         WAR
                   %tr
@@ -73,7 +77,8 @@ layout: default
                     %td #{site.license}
                     %td 24 MB
                     %td
-                      %a{:href => "http://downloads.jboss.org/dashbuilder/release/#{site.pom.latestFinal.version}/dashbuilder-#{site.pom.latestFinal.version}-weblogic12.war"}
+                      %a{:href => "http://downloads.jboss.org/dashbuilder/release/#{site.pom.latestFinal.version}/dashbuilder-#{site.pom.latestFinal.version}-weblogic12.war",
+                          :onclick => "trackDownload(this.href, 'Weblogic', '#{site.pom.latestFinal.name}'); return false;"}
                         %i.icon-download-alt>
                         WAR
               %ul
@@ -124,7 +129,8 @@ layout: default
                     %td WildFly 8.x
                     %td #{site.license}
                     %td
-                      %a{:href => "https://origin-repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.jboss.dashboard-builder&a=builder&v=LATEST&e=war&c=wildfly8"}
+                      %a{:href => "https://origin-repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.jboss.dashboard-builder&a=builder&v=LATEST&e=war&c=wildfly8",
+                          :onclick => "trackDownload(this.href, 'Wildfly', 'snapshot'); return false;"}
                         %i.icon-download-alt>
                         WAR
                   %tr
@@ -132,7 +138,8 @@ layout: default
                     %td Tomcat 7.0.x
                     %td #{site.license}
                     %td
-                      %a{:href => "https://origin-repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.jboss.dashboard-builder&a=builder&v=LATEST&e=war&c=tomcat7"}
+                      %a{:href => "https://origin-repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.jboss.dashboard-builder&a=builder&v=LATEST&e=war&c=tomcat7",
+                          :onclick => "trackDownload(this.href, 'Tomcat', 'snapshot'); return false;"}
                         %i.icon-download-alt>
                         WAR
                   %tr
@@ -140,7 +147,8 @@ layout: default
                     %td TomEE 1.7.1
                     %td #{site.license}
                     %td
-                      %a{:href => "https://origin-repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.jboss.dashboard-builder&a=builder&v=LATEST&e=war&c=tomee-1.7.1"}
+                      %a{:href => "https://origin-repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.jboss.dashboard-builder&a=builder&v=LATEST&e=war&c=tomee-1.7.1",
+                          :onclick => "trackDownload(this.href, 'Wildfly', 'TomEE'); return false;"}
                         %i.icon-download-alt>
                         WAR
                   %tr
@@ -148,7 +156,8 @@ layout: default
                     %td WebSphere 8.x
                     %td #{site.license}
                     %td
-                      %a{:href => "https://origin-repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.jboss.dashboard-builder&a=builder&v=LATEST&e=war&c=was8"}
+                      %a{:href => "https://origin-repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.jboss.dashboard-builder&a=builder&v=LATEST&e=war&c=was8",
+                          :onclick => "trackDownload(this.href, 'Websphere', 'snapshot'); return false;"}
                         %i.icon-download-alt>
                         WAR
                   %tr
@@ -156,7 +165,8 @@ layout: default
                     %td Weblogic 12c
                     %td #{site.license}
                     %td
-                      %a{:href => "https://origin-repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.jboss.dashboard-builder&a=builder&v=LATEST&e=war&c=weblogic12"}
+                      %a{:href => "https://origin-repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.jboss.dashboard-builder&a=builder&v=LATEST&e=war&c=weblogic12",
+                          :onclick => "trackDownload(this.href, 'Weblogic', 'snapshot'); return false;"}
                         %i.icon-download-alt>
                         WAR
             .paragraph

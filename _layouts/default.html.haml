@@ -196,3 +196,8 @@ tab: to-be-defined
       ga('create', 'UA-47256456-4', 'dashbuilder.org');
       ga('send', 'pageview');
 
+
+      function trackDownload(href, target, details) {
+        ga('send', 'event', 'Download', target, details);
+        setTimeout(function() { location.href=href;}, 300);
+      }
