@@ -49,7 +49,7 @@ deal with annoying installation procedures, we recommend watching the following 
 
 UF Dashbuilder is built on top of the following technologies:
 
-* Java 1.6+
+* Java 1.8+
 * Maven
 * JUnit
 * SQL/JDBC
