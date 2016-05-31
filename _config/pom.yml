@@ -1,30 +1,30 @@
 latestFinal:
-    name: 6.3.0 Final
-    version: 6.3.0.Final
-    releaseDate: 2015-09-29
+    name: 6.4.0 Final
+    version: 6.4.0.Final
+    releaseDate: 2016-04-14
 
-    documentationHtmlSingle: http://docs.jboss.org/dashbuilder/release/6.3.0.Final/html_single/index.html
-    documentationHtml: http://docs.jboss.org/dashbuilder/release/6.3.0.Final/html/index.html
-    documentationPdf: http://docs.jboss.org/dashbuilder/release/6.3.0.Final/pdf/dashbuilder-docs.pdf
+    documentationHtmlSingle: http://docs.jboss.org/dashbuilder/release/6.4.0.Final/html_single/index.html
+    documentationHtml: http://docs.jboss.org/dashbuilder/release/6.4.0.Final/html/index.html
+    documentationPdf: http://docs.jboss.org/dashbuilder/release/6.4.0.Final/pdf/dashbuilder-docs.pdf
 
 # latest.version can be equal to latestFinal.version
 latest:
-    name: 6.3.0.Final
-    version: 6.3.0.Final
-    releaseDate: 2015-09-29
+    name: 6.4.0.Final
+    version: 6.4.0.Final
+    releaseDate: 2016-04-14
 
-    documentationHtmlSingle: http://docs.jboss.org/dashbuilder/release/6.3.0.Final/html_single/index.html
-    documentationHtml: http://docs.jboss.org/dashbuilder/release/6.3.0.Final/html/index.html
-    documentationPdf: http://docs.jboss.org/dashbuilder/release/6.3.0.Final/pdf/dashbuilder-docs.pdf
+    documentationHtmlSingle: http://docs.jboss.org/dashbuilder/release/6.4.0.Final/html_single/index.html
+    documentationHtml: http://docs.jboss.org/dashbuilder/release/6.4.0.Final/html/index.html
+    documentationPdf: http://docs.jboss.org/dashbuilder/release/6.4.0.Final/pdf/dashbuilder-docs.pdf
 
 nightly:
-    version: 6.4.0-SNAPSHOT
+    version: 7.0.0-SNAPSHOT
 
 
 ufdashb_latestFinal:
-    name: 0.3.5 Final
-    version: 0.3.5.Final
-    releaseDate: 2015-09-25
+    name: 0.4.0 Final
+    version: 0.4.0.Final
+    releaseDate: 2016-04-14
 
 ufdashb_nightly:
     version: 0.4.0-SNAPSHOT
