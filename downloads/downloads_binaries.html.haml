@@ -85,23 +85,23 @@ layout: default
                 %li
                   How to install on WildFly 8.x: Read the
                   = succeed "." do
-                    %a{:href => "https://github.com/droolsjbpm/dashboard-builder/tree/master/builder/src/main/wildfly8/README.md", :target => "_blank"} installation instructions
+                    %a{:href => "https://github.com/droolsjbpm/dashboard-builder/blob/6.4.x/builder/src/main/wildfly8/README.md", :target => "_blank"} installation instructions
                 %li
                   How to install on TomEE 1.7.1: Read the
                   = succeed "." do
-                    %a{:href => "https://github.com/droolsjbpm/dashboard-builder/tree/master/builder/src/main/tomee1.7.1/README.md#deploy-the-dashboard-builder", :target => "_blank"} installation instructions
+                    %a{:href => "https://github.com/droolsjbpm/dashboard-builder/blob/6.4.x/builder/src/main/tomee1.7.1/README.md#deploy-the-dashboard-builder", :target => "_blank"} installation instructions
                 %li
                   How to install on Tomcat 7: Read the 
                   = succeed "." do
-                    %a{:href => "https://github.com/droolsjbpm/dashboard-builder/blob/master/builder/src/main/tomcat7/README.md#configure-apache-tomcat-7-server", :target => "_blank"} installation instructions
+                    %a{:href => "https://github.com/droolsjbpm/dashboard-builder/blob/6.4.x/builder/src/main/tomcat7/README.md#configure-apache-tomcat-7-server", :target => "_blank"} installation instructions
                 %li
                   How to install on WebSphere 8.x: Read the
                   = succeed "." do
-                    %a{:href => "https://github.com/droolsjbpm/dashboard-builder/tree/master/builder/src/main/was8/README.md", :target => "_blank"} installation instructions
+                    %a{:href => "https://github.com/droolsjbpm/dashboard-builder/blob/6.4.x/builder/src/main/was8/README.md", :target => "_blank"} installation instructions
                 %li
                   How to install on Weblogic 12c: Read the
                   = succeed "." do
-                    %a{:href => "https://github.com/droolsjbpm/dashboard-builder/tree/master/builder/src/main/weblogic12c/README.md", :target => "_blank"} installation instructions
+                    %a{:href => "https://github.com/droolsjbpm/dashboard-builder/blob/6.4.x/builder/src/main/weblogic12c/README.md", :target => "_blank"} installation instructions
                 %li
                   Older community releases: Check the
                   = succeed "." do
@@ -110,67 +110,6 @@ layout: default
                   Red Hat subscription releases: Check the BPMS product on the
                   = succeed "." do
                     %a{:href => "https://access.redhat.com/site/downloads/", :target => "_blank"} download site
-      .row-fluid
-        %h1 Nightly Builds
-        .sect1
-          .sectionbody
-            .paragraph
-              %p Nightly builds from latest snapshots are also available for download.
-              %table.table.table-bordered.table-striped
-                %thead
-                  %tr
-                    %th Version
-                    %th Description
-                    %th License
-                    %th Format
-                %tbody
-                  %tr
-                    %td #{site.pom.nightly.version}
-                    %td WildFly 8.x
-                    %td #{site.license}
-                    %td
-                      %a{:href => "https://origin-repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.jboss.dashboard-builder&a=builder&v=LATEST&e=war&c=wildfly8",
-                          :onclick => "trackDownload(this.href, 'Wildfly', 'snapshot'); return false;"}
-                        %i.icon-download-alt>
-                        WAR
-                  %tr
-                    %td #{site.pom.nightly.version}
-                    %td Tomcat 7.0.x
-                    %td #{site.license}
-                    %td
-                      %a{:href => "https://origin-repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.jboss.dashboard-builder&a=builder&v=LATEST&e=war&c=tomcat7",
-                          :onclick => "trackDownload(this.href, 'Tomcat', 'snapshot'); return false;"}
-                        %i.icon-download-alt>
-                        WAR
-                  %tr
-                    %td #{site.pom.nightly.version}
-                    %td TomEE 1.7.1
-                    %td #{site.license}
-                    %td
-                      %a{:href => "https://origin-repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.jboss.dashboard-builder&a=builder&v=LATEST&e=war&c=tomee-1.7.1",
-                          :onclick => "trackDownload(this.href, 'TomEE', 'snapshot'); return false;"}
-                        %i.icon-download-alt>
-                        WAR
-                  %tr
-                    %td #{site.pom.nightly.version}
-                    %td WebSphere 8.x
-                    %td #{site.license}
-                    %td
-                      %a{:href => "https://origin-repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.jboss.dashboard-builder&a=builder&v=LATEST&e=war&c=was8",
-                          :onclick => "trackDownload(this.href, 'Websphere', 'snapshot'); return false;"}
-                        %i.icon-download-alt>
-                        WAR
-                  %tr
-                    %td #{site.pom.nightly.version}
-                    %td Weblogic 12c
-                    %td #{site.license}
-                    %td
-                      %a{:href => "https://origin-repository.jboss.org/nexus/service/local/artifact/maven/redirect?r=snapshots&g=org.jboss.dashboard-builder&a=builder&v=LATEST&e=war&c=weblogic12",
-                          :onclick => "trackDownload(this.href, 'Weblogic', 'snapshot'); return false;"}
-                        %i.icon-download-alt>
-                        WAR
-            .paragraph
-              %p Installation instructions are the same as #{site.pom.latestFinal.name} (see above).
 
     #rightcol.span3.well
       = partial ( 'latestNews.html.haml' )
